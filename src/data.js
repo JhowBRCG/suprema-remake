@@ -2,7 +2,7 @@ export const services = [
   {
     id: 1,
     title: "Análise de dados",
-    image: "/assets/imgs/analise-img.png",
+    image: "https://i.imgur.com/GuLSvtF.png",
     desc: "Trabalharemos através da análise de dados demográficos, preferências de compra e comportamento online para aproximar sua empresa ao máximo do seu público - alvo ideal.",
     bg: "#FDFDFD",
   },
@@ -10,7 +10,7 @@ export const services = [
   {
     id: 2,
     title: "Mídias sociais",
-    image: "/assets/imgs/socials-img.png",
+    image: "https://i.imgur.com/jVxEarF.png",
     desc: "Com uma estratégia sólida de mídias sociais, trabalharemos a comunicação de forma a alcançar novos clientes e fidelizar os já existentes.",
     bg: "#FFFF03",
   },
@@ -18,7 +18,7 @@ export const services = [
   {
     id: 3,
     title: "Páginas",
-    image: "/assets/imgs/pages-img.png",
+    image: "https://i.imgur.com/ZUevodb.png",
     desc: "Oferecemos páginas web de fácil navegação, melhorando a experiência e interação dos clientes, a partir de um design responsivo e teste A/B, aumentando a probabilidade de conversão.",
     bg: "#B9FF66",
   },
