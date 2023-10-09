@@ -10,6 +10,12 @@ import WorkProcess from "./components/WorkProcess";
 import FeedbackSection from "./components/FeedbackSection";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
+import TagManager from "react-gtm-module";
+
+const tagManagerArgs = {
+  gtmId: "AW-11367042855",
+};
+TagManager.initialize(tagManagerArgs);
 
 const App = () => {
   return (
