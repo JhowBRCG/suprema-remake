@@ -18,7 +18,7 @@ const StyledHeader = styled.header`
 
   @media screen and (max-width: 425px) {
     img {
-      width: 175px;
+      width: 160px;
     }
   }
 

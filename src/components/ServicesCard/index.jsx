@@ -57,6 +57,9 @@ const Card = styled.article`
       font-size: 2rem;
     }
   }
+
+  img {
+  }
 `;
 
 export default ServicesCard;
