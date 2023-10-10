@@ -9,7 +9,10 @@ const Footer = () => {
         <img src={Logo} alt="logo suprema" />
         <ul>
           <li>
-            <a href="https://www.linkedin.com/company/suprema-company">
+            <a
+              href="https://www.linkedin.com/company/suprema-company"
+              target="_blank"
+            >
               <BiLogoLinkedin size={30} />
             </a>
           </li>
@@ -22,8 +25,8 @@ const Footer = () => {
       </Socials>
       <Contact>
         <h4>Fale com a gente</h4>
-        <p>Email: info@positivus.com</p>
-        <p>Whatsapp: 555-567-8901</p>
+        <p>Email: supremacompany@gmail.com</p>
+        <p>Whatsapp: +55 11 99946-8341</p>
       </Contact>
       <Rights>
         <p>© 2023 Suprema company. todos os direitos reservados</p>
