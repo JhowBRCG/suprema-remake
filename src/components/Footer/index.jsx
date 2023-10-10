@@ -9,7 +9,7 @@ const Footer = () => {
         <img src={Logo} alt="logo suprema" />
         <ul>
           <li>
-            <a href="">
+            <a href="https://www.linkedin.com/company/suprema-company">
               <BiLogoLinkedin size={30} />
             </a>
           </li>
