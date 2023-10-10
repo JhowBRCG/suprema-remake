@@ -30,11 +30,6 @@ const Accordion = styled.li`
   background: ${({ theme, open }) =>
     open === true ? theme.colors.secondaryColor : theme.colors.white};
   border-radius: ${({ theme }) => theme.radius.default};
-  padding: 4rem 6rem;
-
-  @media screen and (max-width: 425px) {
-    padding: 4rem 4rem;
-  }
 `;
 
 const Header = styled.div`
@@ -48,6 +43,10 @@ const Header = styled.div`
     color: ${({ theme }) => theme.colors.black};
     font-family: ${({ theme }) => theme.fonts.secondaryFont};
     font-weight: 500;
+  }
+
+  p {
+    padding: 4rem 0 4rem 4rem;
   }
 
   h3 {
@@ -71,12 +70,23 @@ const Button = styled.button`
   border: none;
   margin-left: auto;
   cursor: pointer;
+  padding: 4rem;
 `;
 
 const Content = styled.div`
-  margin-top: 3rem;
   padding-top: 3rem;
-  border-top: 1px solid #000;
+  padding: 3rem 6rem 4rem;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 93%;
+    height: 1px;
+    inset: 0;
+    margin: 0 auto auto auto;
+    background: #000;
+  }
 `;
 
 export default AccordionWork;
