@@ -15,10 +15,9 @@ const FeedbackSection = () => {
 };
 
 const Section = styled.section`
-  margin-block: 200px;
-
   h2 {
     text-align: center;
+    margin: 200px 0 64px;
   }
 `;
 

@@ -2,7 +2,6 @@ import styled from "styled-components";
 import Header from "../Header";
 import { CtaButton } from "../CtaButton";
 import HeroImg from "../../assets/imgs/hero-illustration.svg";
-import Arrows from "../../assets/imgs/arrows.svg";
 import ArrowDown from "../../assets/imgs/arrow-down-circle.svg";
 
 const Hero = () => {
@@ -30,6 +29,7 @@ const HeroSection = styled.section`
   grid-template-columns: 1fr 1fr;
   align-items: center;
   position: relative;
+  min-height: calc(100vh - 86px);
 
   &::before {
     content: "";
@@ -38,10 +38,13 @@ const HeroSection = styled.section`
     height: 34px;
     position: absolute;
     inset: 0;
-    margin: auto auto -30px auto;
+    margin: auto auto 30px auto;
 
-    @media screen and (max-width: 425px) {
-      margin: auto auto -100px auto;
+    @media screen and (max-width: 1024px) {
+      margin: auto auto 0 auto;
+    }
+    @media screen and (max-width: 768px) {
+      margin: auto auto -50px auto;
     }
   }
 
@@ -53,7 +56,6 @@ const HeroSection = styled.section`
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
-    min-height: auto;
   }
 
   @media screen and (max-width: 425px) {
@@ -127,8 +129,8 @@ const Content = styled.div`
 `;
 
 const HeroImage = styled.div`
-  @media screen and (max-width: 1024px) {
-    width: 60%;
+  @media screen and (max-width: 768px) {
+    width: 50%;
   }
   img {
     width: 100%;

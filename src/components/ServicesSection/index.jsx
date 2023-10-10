@@ -19,7 +19,7 @@ const ServicesSection = () => {
 };
 
 const Section = styled.section`
-  margin-top: 153px;
+  margin-block: 153px;
 
   h2 {
     text-align: center;
